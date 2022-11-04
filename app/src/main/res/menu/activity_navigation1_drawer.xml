@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/event"
+            android:icon="@drawable/ic_event_note_black"
+            android:title="Event" />
+
+        <item
+            android:id="@+id/schedule"
+            android:icon="@drawable/ic_schedule_black"
+            android:title="Schedule" />
+        <item
+            android:id="@+id/preass"
+            android:icon="@drawable/ic_assignment_black"
+            android:title="Pre-Assignment" />
+        <item
+            android:id="@+id/score"
+            android:icon="@drawable/ic_account_balance_wallet_black"
+            android:title="Scores" />
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+             <item
+            android:id="@+id/Register"
+            android:icon="@drawable/ic_assignment_black"
+            android:title="Registration" />
+
+        <item
+            android:id="@+id/Feedback"
+            android:icon="@drawable/ic_assignment_black"
+            android:title="Provide Feedback" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/ic_contact_phone_black"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/map"
+                android:icon="@drawable/ic_add_location_black"
+                android:title="Locate Us" />
+
+
+
+
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/blank75dddd1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="@color/colorPrimary" /></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/crop1" />
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/blank75da1e"
+                    android:layout_width="0dp"
+                    android:layout_height="6dp"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="@color/colorPrimary" />
+
+
+
+
+            <LinearLayout
+                android:id="@+id/run"
+
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:focusableInTouchMode="true"
+                        android:orientation="vertical">
+
+                        <com.daimajia.slider.library.SliderLayout
+                            android:id="@+id/sliderLayout"
+                            android:layout_width="fill_parent"
+                            android:layout_height="200dp" />
+
+                        <!--            <androidx.recyclerview.widget.RecyclerView-->
+                        <!--                android:id="@+id/recyclerview"-->
+                        <!--                listitem="@layout/recyclarview_adapter"-->
+                        <!--                android:layout_width="match_parent"-->
+                        <!--                android:layout_height="match_parent"-->
+                        <!--                android:orientation="vertical"-->
+                        <!--                android:scrollbars="none" />-->
+                    </LinearLayout>
+                </androidx.core.widget.NestedScrollView>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+
+                <TextView
+                    android:id="@+id/blank32"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/aldrich"
+                    android:text="ABOUT SKE SOCIETY"
+                    android:textColor="#020202"
+                    android:textColorLink="#F5F0F0"
+                    android:textSize="24sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="15dp">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:ems="10"
+                    android:fontFamily="@font/airale"
+                    android:gravity="start|top"
+                    android:text="South Konkan Education Society is a premier organization running a full range of education institutions in Belagavi. It enjoys enormous goodwill as a provider of the quality education. It was established in the year 1944 at Sawantwadi and then relocated to Belagavi in 1948. The SKE society committed to make the campus a centre of excellence in education.\n"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="18sp" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/run2"
+
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:focusableInTouchMode="true"
+                        android:orientation="vertical">
+
+                        <com.daimajia.slider.library.SliderLayout
+                            android:id="@+id/sliderLayout2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="200dp" />
+
+                        <!--            <androidx.recyclerview.widget.RecyclerView-->
+                        <!--                android:id="@+id/recyclerview"-->
+                        <!--                listitem="@layout/recyclarview_adapter"-->
+                        <!--                android:layout_width="match_parent"-->
+                        <!--                android:layout_height="match_parent"-->
+                        <!--                android:orientation="vertical"-->
+                        <!--                android:scrollbars="none" />-->
+                    </LinearLayout>
+                </androidx.core.widget.NestedScrollView>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+
+                <TextView
+                    android:id="@+id/blank71"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/aldrich"
+                    android:text="ABOUT GSS BCA"
+                    android:textColor="#020202"
+                    android:textColorLink="#F5F0F0"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="15dp">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/textds"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SKE society has taken responsibility of providing education in the field of information technology. This has led to the birth of GSS BCA in the year 2007. GSS BCA is committed to develop professionals, trained in computer applications to meet  the needs of IT industry. It strives for excellence in technical education and inculcates the spirit of entrepreneurship in software industries.\n"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/airale"
+                    android:ems="10"
+                    android:textColor="@color/cardview_dark_background"
+                    android:gravity="start|top"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/blankjkld1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="@color/colorPrimary" /></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/blank75gdd1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="@color/colorPrimary" /></LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/blank75ddd1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="@color/colorPrimary" /></LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/blank8ds2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#A9808080"
+                    android:fontFamily="@font/aldrich"
+                    android:gravity="center"
+                    android:text="©All rights reserved 2020"
+                    android:textColor="#020202"
+                    android:textColorLink="#F5F0F0"
+                    android:textSize="15sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/blank8dsda2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#A9808080"
+                    android:fontFamily="@font/aldrich"
+                    android:gravity="center"
+                    android:text="Developed By:"
+                    android:textColor="#020202"
+                    android:textColorLink="#F5F0F0"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/blank8dsdad2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#A9808080"
+                    android:fontFamily="@font/aldrich"
+                    android:gravity="center"
+                    android:text="Chetan Mali"
+                    android:textColor="#020202"
+                    android:textColorLink="#F5F0F0"
+                    android:textSize="11sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/blank8dsdda2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#A9808080"
+                    android:fontFamily="@font/aldrich"
+                    android:gravity="center"
+                    android:text="Shubham Suguni"
+                    android:textColor="#020202"
+                    android:textColorLink="#F5F0F0"
+                    android:textSize="11sp"
+
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

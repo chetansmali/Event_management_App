@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "716360972708",
+    "firebase_url": "https://collegefest-13e33.firebaseio.com",
+    "project_id": "collegefest-13e33",
+    "storage_bucket": "collegefest-13e33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716360972708:android:6fb79fd835edc17f57a931",
+        "android_client_info": {
+          "package_name": "com.example.votecasting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "716360972708-ev48iu7dont6s3752uq0qokebbr0jji3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.votecasting",
+            "certificate_hash": "add2980c373087ab8354649ccdec2606fb61296a"
+          }
+        },
+        {
+          "client_id": "716360972708-o502bc31lmqjas39b6b8jdfev2a7j6fg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFJlCDDUqxr8aj9pDPJS9cJlTQ4fKmObg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "716360972708-o502bc31lmqjas39b6b8jdfev2a7j6fg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutusActivity">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#303F9F"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+        <TextView
+            android:id="@+id/toolbarTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="About Us"
+            android:textAppearance="@android:style/TextAppearance.WindowTitle"
+            android:textSize="20sp"
+            android:fontFamily="@font/aldrich"
+            android:visibility="visible" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:background="?attr/actionModeCloseDrawable"
+            android:backgroundTint="#F7FFFFFF"
+            android:ems="3" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-5dp"
+        android:layout_marginBottom="378dp"
+        app:srcCompat="@drawable/au" />
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:id="@+id/textView10"
+        android:layout_width="404dp"
+        android:layout_height="155dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="357dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginBottom="219dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="BCA is a 3-year full time degree course of six semesters.Seminars, workshops, Tech talks by software industry expertise,study tours,development of projects all are part and parcel of the learning process at GSS BCA. GSS BCA is committed to develop professionals,trained in computer applications to meet the current needs of the IT industry and inculcate the spirit of entrepreneurship in Computer Applications.\n"
+        android:textColor="#020202" />
+
+
+</RelativeLayout>
